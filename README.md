@@ -14,9 +14,11 @@ Puzzle steps:
     1. ratking.html is solved by going to the page and reading the inscryption it's something like "-- --- small, --- --- are legion" in barcode lang
     2. rasputin.html links to a .zip file
         - from there, hunters rename the .zip file to a .png
-        - in the png there are extra bits, spelling out "the key is 'perserverance'"
-    3. engram.html
+        - the image is barcode lang for "a great warmind of the golden age stirs in hellas basin", with regular english mixed in
+    3. ghost.html
+        - barcode for "little light"
     4. traveler.html
+        - base 64 text for the message "the traveler; the gardener", but the last 2 equals signs in the string are replaced with the same message in barcode lang
 7. once each hint is decoded, the barcode message on index.html can be decoded. it reads:
    > contemplate this broken thought
    > in a place out of time
