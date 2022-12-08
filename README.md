@@ -29,3 +29,8 @@ Puzzle steps:
     > we hope you join us to chat with the creator of this world
     > and maybe, if you show up with, our presence will be known
 
+questions?
+
+- maybe post this from @vera
+- leak some images
+
