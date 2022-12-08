@@ -36,3 +36,16 @@ questions?
 - maybe post this from @vera
 - leak some images
 
+---
+
+Intent:
+
+Why am I doing this?
+
+- the best AMAs have inspired questions
+- it feels like many people show up day of & maybe questions will be more inspired if people are feeling inspired about the person's work
+- lore gets people interested
+- learning about cool stuff gets people interested
+- making a quiz or kahoot feels forced & like homework– need to get people to dip their toes in as much or as little as they want
+  - this also means each puzzle should be non-destiny/bungie specific. domain specific knowledge helps, but everyone's background is a technical one, not a game one
+- puzzle should drum up activity in the slack
