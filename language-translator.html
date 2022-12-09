@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas width="2000" height="500"></canvas>
+    <input id="text" placeholder="enter some text" />
+
+    <script>
+      const canvas = document.getElementsByTagName("canvas")[0];
+      const ctx = canvas.getContext("2d");
+
+      ctx.fillStyle = "black";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      ctx.strokeStyle = "white";
+
+      function drawLine([x1, y1], [x2, y2]) {
+        ctx.beginPath();
+        ctx.moveTo(x1, y1);
+        ctx.lineTo(x2, y2);
+        ctx.closePath();
+        ctx.stroke();
+      }
+
+      function drawChar(offset, data, yOffset = 0) {
+        offset = offset * 40 + 10;
+        yOffset = yOffset * 50 + 10;
+        if (data[0] == "a")
+          drawLine([offset, yOffset + 20], [offset + 20, yOffset]);
+        if (data[1] == "a")
+          drawLine([offset + 20, yOffset], [offset + 40, yOffset + 20]);
+        if (data[2] == "a")
+          drawLine([offset + 40, yOffset + 20], [offset + 20, yOffset + 40]);
+        if (data[3] == "a")
+          drawLine([offset + 20, yOffset + 40], [offset, yOffset + 20]);
+
+        if (data[4] == "a")
+          drawLine([offset + 10, yOffset + 20], [offset + 20, yOffset + 10]);
+        if (data[5] == "a")
+          drawLine([offset + 20, yOffset + 10], [offset + 30, yOffset + 20]);
+        if (data[6] == "a")
+          drawLine([offset + 30, yOffset + 20], [offset + 20, yOffset + 30]);
+        if (data[7] == "a")
+          drawLine([offset + 20, yOffset + 30], [offset + 10, yOffset + 20]);
+      }
+
+      const x = {
+        a: "aaaaa.a.",
+        b: ".aaa.a.a",
+        c: "a.aaa..a",
+        d: "a.aaaa..",
+        e: "aaaaaaa.",
+        f: "a.aa..aa",
+        g: "a.aa..a.",
+        h: "aa.aa.a.",
+        i: "aaaaa...",
+        j: ".a.a.aa.",
+        k: "a.a...aa",
+        l: "a.aa.aa.",
+        m: "aa....aa",
+        n: "aa....a.",
+        o: "aaaaaaaa",
+        p: "a.a..a..",
+        q: ".a.aa...",
+        r: "...aaa..",
+        s: "..aaaaa.",
+        t: "aa.....a",
+        u: "aaaa..aa",
+        v: "..aa....",
+        w: "..aaaa..",
+        x: ".a.aa.a.",
+        y: "aaaa.aaa",
+        " ": "........",
+      };
+
+      const WRAP_POINT = 30;
+
+      document.getElementById("text").addEventListener("input", (e) => {
+        const text = e.target.value;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        text.split("").forEach((char, index) => {
+          drawChar(index % WRAP_POINT, x[char], Math.floor(index / WRAP_POINT));
+        });
+      });
+    </script>
+  </body>
+</html>
