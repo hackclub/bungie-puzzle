@@ -1,6 +1,14 @@
-# Puzzle for AMA with Justin
+# Puzzle for AMA with Justin Truman
 
-This 
+Hack Club is about to have an [AMA with Justin Truman](https://events.hackclub.com/ama-w-justin-truman/). This repo is the storage place for a puzzle released just a day before to drum up visibility for the call.
+
+It started in a mysterious post in our announcements channel:
+![](https://cloud-3tqlhbto2-hack-club-bot.vercel.app/0screenshot_2022-12-09_at_17.33.28.png)
+
+And ended after 24 hours & 250+ messages later in a community thread:
+![](https://cloud-iynitktnu-hack-club-bot.vercel.app/0screenshot_2022-12-09_at_17.35.22.png)
+
+The main puzzle site can be found at https://hackclub.github.io/bungie-puzzle.
 
 ### Intent:
 
