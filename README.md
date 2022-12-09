@@ -1,3 +1,10 @@
+# Puzzle for AMA with Justin
+
+Initial notes:
+
+![](img/notes_1.jpeg)
+![](img/notes_2.jpeg)
+
 Puzzle steps:
 
 1. a new user in slack shows up with the name ghost & a destiny ghost as the profile pick
