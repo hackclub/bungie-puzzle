@@ -1,11 +1,27 @@
 # Puzzle for AMA with Justin
 
-Initial notes:
+This 
 
-![](img/notes_1.jpeg)
-![](img/notes_2.jpeg)
+### Intent:
 
-Puzzle steps:
+Why am I doing this?
+
+- the best AMAs have inspired questions
+- it feels like many people show up day of & maybe questions will be more inspired if people are feeling inspired about the person's work
+- lore gets people interested
+- learning about cool stuff gets people interested
+- making a quiz or kahoot feels forced & like homework– need to get people to dip their toes in as much or as little as they want
+  - this also means each puzzle should be non-destiny/bungie specific. domain specific knowledge helps, but everyone's background is a technical one, not a game one
+- puzzle should drum up activity in the slack
+
+### Repo:
+
+- The initial designs were done on paper, [here](img/notes_1.jpeg) and [here](img/notes_2.jpeg).
+- The square language was built out as a tool [here](/language-translator.html) so we could quicky create messages.
+- The rest of the codebase in this repo is served from Github Pages.
+- The designs and art were made in [Figma](https://www.figma.com/file/1YE8CxInsrsoDzgY67bEdp/destiny-puzzle?node-id=0%3A1&t=nzK5TXRiWxtFRBsx-1).
+
+### Puzzle steps:
 
 1. a new user in slack shows up with the name ghost & a destiny ghost as the profile pick
 2. it posts the image of a dinosaur sleeping on an engram (https://www.destinypedia.com/Engram)
@@ -37,22 +53,3 @@ Puzzle steps:
     > and we're impressed
     > we hope you join us to chat with the creator of this world
     > and maybe, if you show up with, our presence will be known
-
-questions?
-
-- maybe post this from @vera
-- leak some images
-
----
-
-Intent:
-
-Why am I doing this?
-
-- the best AMAs have inspired questions
-- it feels like many people show up day of & maybe questions will be more inspired if people are feeling inspired about the person's work
-- lore gets people interested
-- learning about cool stuff gets people interested
-- making a quiz or kahoot feels forced & like homework– need to get people to dip their toes in as much or as little as they want
-  - this also means each puzzle should be non-destiny/bungie specific. domain specific knowledge helps, but everyone's background is a technical one, not a game one
-- puzzle should drum up activity in the slack
